@@ -1,0 +1,270 @@
+body{
+  font-family:"Yu Gothic";
+  width:100%;
+  margin-left:0;
+}
+
+.header{
+  width:100%;
+  height:55px;
+  color:white;
+}
+
+.header-left{
+  float:left;
+  color:black;
+  opacity:0.9;
+  margin-left:80px;
+}.header-left h2 {
+  font-size: 28px;
+  margin-top: -7px;
+  position: relative;
+  padding: 0.25em 0;
+  text-align: center;
+}
+.header-left h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+}
+
+
+.header-center{
+  text-align: center;
+  margin-right: 270px;
+  opacity:0.7;
+}
+.header-center strong{
+  color:black;
+  opacity:0.5;
+  margin-top: -15px;
+}
+.header-right{
+  float: right;
+  background-color: #55acee;
+  margin-top:-20px;
+  margin-right: 180px;
+  border-radius: 8px;
+}
+.twitter{
+  padding:4px 12px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  border-radius: 8px;
+  box-shadow:2px 3px #000000;
+}
+.twitter:hover{
+  opacity:0.4;
+}
+.header-2{
+  background:linear-gradient(-135deg,#05FBFF,#ff8C00,#1D62F0,#f0f0f0) fixed;
+  height: 30px;
+}
+
+.header-btn{
+  display: inline-block;
+  margin-left: 60px;
+  color:white;
+}
+.header-btn:hover{
+  opacity:0.7;
+}
+.mission-wrapper{
+  margin:80px 0;
+}
+.top-wrapper{
+  margin-top: 3px;
+}
+.wrapper-container{
+  padding: 60px 0 90px 0;
+  background-image:url(jIDTy1Sr[1].jpg) ;
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: contain;
+  width:100%;
+  height:700px;
+  color: white;
+}
+
+
+.discliption h1 {
+  margin-top: 270px;
+  text-shadow: 1px 2px 3px #808080;
+  text-align: center;
+  color:white;
+  opacity:0.7;
+  font-size:65px;
+}
+
+.discliption strong {
+  text-shadow: 1px 2px 3px #808080;
+  font-size:20px;
+  margin-top: 27px;
+  margin-left: 400px;
+  color:white;
+  opacity:3.5;
+  text-decoration: underline;
+}
+.search{
+  margin-top:80px;
+  margin-left: 320px;
+  opacity: 0.8;
+}
+.search input{
+  text-align: center;
+}
+#form2{
+position:relative;
+max-width:300px;
+margin-bottom:20px;
+}
+#sbox2{
+height:50px;
+width:700px;
+padding:0 10px;
+position:absolute;
+left:0;
+top:0;
+border-radius:2px;
+outline:0;
+background:#eee;
+}
+#sbtn2{
+height:50px;
+position:absolute;
+margin-left: 200px;
+top:0;
+background:none;
+color:#666;
+border:none;
+font-size:28px;/*アイコンサイズ*/
+}
+#sbtn5:hover{
+color:#7fbfff;
+}
+/*-日付ごとのぶろぐページはいるだろうか。。.recommend{
+  margin-top:-500px;
+  margin-left: 30px;
+  background:linear-gradient(-135deg,#05FBFF,#1D62F0) fixed;
+  opacity:0.8;
+  height:583px;
+  width:120px;
+}
+.recommend p{
+  margin-left: 8px;
+}*/
+.date{
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: white;
+}
+.date:hover{
+  opacity: 0.7;
+}
+
+.title{
+  border-top: 0.8px solid black;
+  margin-left: 40px;
+  text-shadow: 1px 2px 3px #808080;
+  opacity: 0.7;
+}
+.page{
+  text-align: center;
+  margin-left: 67px;
+  padding:10px 0;
+
+}
+
+.page-title {
+  height: 350px;
+  display: inline-block;
+  float:left;
+  margin-left:10px;
+  margin-right: 130px;
+  width:23%;
+  background-color:black;
+  opacity:0.8;
+  color:white;
+  margin-bottom: 65px;
+}
+a:hover{
+  opacity:0.7;
+}
+.img{
+  padding:12px 0;
+}
+
+.picture1{
+  display: inline-block;
+  background-image: url(DSC_0018.JPG);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: contain;
+  width:50%;
+  height:475px;
+}
+.today h1{
+  margin-top: 100px;
+  text-shadow: 1px 2px 3px #808080;
+  text-align: center;
+  color:white;
+  opacity:0.7;
+  font-size:40px;
+}
+
+.picture2{
+  display: inline-block;
+  background-image: url(DSC_0118.JPG);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: contain;
+  width:50%;
+  height:475px;
+  float:right;
+  margin-left: 200px;
+  margin-top: -475px;
+}
+.picture3{
+  display: inline-block;
+  background-image: url(DSC_0098.JPG);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: contain;
+  width:50%;
+  height:475px;
+}
+.picture4{
+  display: inline-block;
+  background-image: url(DSC_0029.JPG);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: contain;
+  width:50%;
+  height:475px;
+  float:right;
+  margin-left: 200px;
+  margin-top: -475px;
+}
+.footer-top{
+  text-align: center;
+  font-size: 18px;
+  background:linear-gradient(-135deg,#05FBFF,#1D62F0) fixed;
+  opacity:0.6;
+  margin-top: 100px;
+  padding-bottom: 10px;
+}
+.footer-top a{
+  display:inline-block;
+  color:white;
+  margin-top:5px;
+}
+.footer-top a:hover{
+  opacity:0.7;
+}
+.footer-bottom{
+  float:right;
+}
